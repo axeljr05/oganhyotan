@@ -1,0 +1,205 @@
+/* Estilos generales */
+body {
+  background-image: url(img/one.jpg);
+  background-size: 900px;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #ffd900;
+  }
+  
+
+  h2 {
+    color: #ffd900;
+    
+  }
+  
+  h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffd600;
+  }
+
+  .general {
+    padding: 50px 0;
+    text-align: center;
+  } 
+  .general-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+  } 
+
+  .general-1 {
+      font-size: 20px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      padding: 70px 55px;
+      
+    } 
+
+.general-2 {
+  background-image: url(img/6.png);
+  font-size: 18px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+    padding: 70px 55px;
+  
+}
+
+.general-3 {
+  background-image: url(img/64.png);
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 340px;
+    padding: 70px 55px;
+  
+}
+
+.general-4 {
+  background-image: url(img/6.png);
+  font-size: 18px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  padding: 70px 55px;
+  
+}
+
+
+  /* Estilos de encabezado */
+  header {
+    background-image: url(img/jo.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    }
+
+    .header-txt h1 {
+      font-size: 85px;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .header-txt p {
+      font-size: 30px;
+      color: #ffffff;
+    }
+
+    .imag {
+    background-image: url(img/hi.png);
+    color: #000000;
+    font-size: 50px;
+    background-size: contain;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 70px;
+    
+    }
+
+    .imag-1 {
+      background-image: url(img/hi.png);
+      color: #000000;
+      font-size: 50px;
+      background-size: contain;
+      align-items: center;
+      justify-content: space-between;
+      padding: 70px 70px;
+      
+      }
+  
+
+    
+    
+  /* Estilos de navegación */
+  nav {
+    background-color: #0000008e;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #ff0095;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ffffff;
+  }
+
+  .pago-1  {
+    font-size:20px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    padding: 25px 30px;
+    
+  } 
+  .metodos-pago p {
+    font-size:20px;
+    color:rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    
+  } 
+  
+  
+  
+  
+  
+  /* Estilos de pie de página */
+  
+  footer {
+    background-image: url(img/14.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 20vh;
+    display: flex;
+    padding: 20px;
+    color: #e9e2e2;
+    text-align: left;
+  }
+
+    /* Existencia */
+
+ .producto {
+  font-size: 30px;
+  text-align: center;
+}
+
+ tr{
+  font-size: 20px;
+  text-align: center;
+  color: #000000;
+  justify-content: space-between;
+  
+}
